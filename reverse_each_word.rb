@@ -7,10 +7,11 @@ def reverse_each_word(sentence1)
  string.each do |char|
   #telling each item of the string to be "processed"
   reversed_string.push(char.reverse)
-  #adds new letters in r
+  #adds letters in reverse
  end
  
  return reversed_string.join(' ')
+ #returns entire string
  
 end
 
