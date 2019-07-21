@@ -9,7 +9,7 @@ def reverse_each_word(sentence1)
  return reversed_string.join(' ')
  
  string.collect do |char|
-  reversed_string.push(char.reverse)
+  reversed_string.push(char)
  end
  
  return reversed_string.join(' ')
