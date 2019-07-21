@@ -7,4 +7,13 @@ def reverse_each_word(sentence1)
  end
  
  return reversed_string.join(' ')
+ 
+ string = sentence1.split
+ reversed_string = []
+ 
+ string.collect do |char|
+  reversed_string.push(char.reverse)
+ end
+ 
+ return reversed_string.join(' ')
 end
