@@ -7,5 +7,4 @@ def reverse_each_word(sentence1)
  end
  
  return reversed_string.join(' ')
- string.collect {}
 end
