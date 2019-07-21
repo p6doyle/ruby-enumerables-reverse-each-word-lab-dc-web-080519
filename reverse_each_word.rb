@@ -9,5 +9,3 @@ def reverse_each_word(sentence1)
  return reversed_string.join(' ')
  
 end
-
-return sentence1.collect
