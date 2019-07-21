@@ -3,7 +3,7 @@ def reverse_each_word(sentence1)
  reversed_string = []
  
  string.each do |char|
-  reversed_string.shift(char)
+  reversed_string.push(char)
  end
  
  return reversed_string.join('')
